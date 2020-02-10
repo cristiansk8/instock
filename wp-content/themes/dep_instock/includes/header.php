@@ -11,7 +11,7 @@
 <body <?php body_class(); ?>>
 
 <!--[if lt IE 8]>
-<div class="alert alert-warning">
+<div class="alert alert-wa_rning">
 	You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
 </div>
 <![endif]-->
@@ -50,12 +50,12 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container -->
 </nav>
-  
+
 <!--
 Site Title
 ==========
-If you are displaying your site title in the "brand" link in the Bootstrap navbar, 
-then you probably don't require a site title. Alternatively you can use the example below. 
+If you are displaying your site title in the "brand" link in the Bootstrap navbar,
+then you probably don't require a site title. Alternatively you can use the example below.
 See also the accompanying CSS example in css/bst.css .
 
 <div class="container">

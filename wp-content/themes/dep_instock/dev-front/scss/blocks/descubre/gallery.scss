@@ -1,0 +1,38 @@
+section{
+.fotos-container{
+  padding: rem(15px) rem(50px);
+  @include mq('md') {
+  padding: rem(30px) rem(100px);
+
+}
+  .tittle-fotos{
+    h2{
+      color: $azul-medio;
+    }
+    hr{
+      border-top: .2rem solid #1aa7b3;
+    }
+  }
+  .galery{
+    display: flex;
+    flex-wrap: wrap;
+
+    figure{
+      width: 33.3%;
+      padding: 0 5px;
+    }
+  }
+}
+.fotos{
+  &-caption{
+    text-align: center;
+    img{
+      display: inline-block;
+    }
+  }
+}
+
+
+
+
+}

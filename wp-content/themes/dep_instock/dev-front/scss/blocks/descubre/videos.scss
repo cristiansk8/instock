@@ -1,0 +1,26 @@
+section{
+&#videoPost{
+  padding: rem(15px) rem(50px);
+  @include mq('md') {
+  padding: rem(30px) rem(100px);
+
+}
+.videos-container{
+  .tittle-videos{
+    h2{
+      color: $azul-medio;
+    }
+    hr{
+      border-top: .2rem solid #1aa7b3;
+    }
+  }
+}
+
+.videos{
+  article{
+    padding: 0 rem(25px);
+  }
+}
+}
+
+}

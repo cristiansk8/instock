@@ -1,0 +1,16 @@
+.footer{
+	background-color: $azul-medio;
+	color: $white;
+	padding: rem(20px) rem(20px);
+	@include mq('md'){
+		padding: rem(20px) rem(200px);
+	}
+	.sub-footer{
+		text-align: center;
+		font-size: 14px;
+			padding: rem(10px) rem(20px);
+			@include mq('md'){
+				padding: rem(10px) rem(200px);
+			}
+	}
+}

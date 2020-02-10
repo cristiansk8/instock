@@ -1,0 +1,28 @@
+section{
+.aliados-container{
+  padding: rem(15px) rem(50px);
+  @include mq('md') {
+  padding: rem(30px) rem(100px);
+
+}
+  .tittle-videos{
+    h2{
+      color: $azul-medio;
+    }
+    hr{
+      border-top: .2rem solid #1aa7b3;
+    }
+  }
+}
+.aliados{
+  &-caption{
+    text-align: center;
+    img{
+      display: inline-block;
+    }
+  }
+}
+
+
+
+}

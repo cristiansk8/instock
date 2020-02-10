@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+// ------------------------ //
+// -- Commons -- //
+// ------------------------ //
+@import 'commons/fonts';
+@import 'commons/variables';
+@import 'commons/mixins';
+@import 'commons/general';
+@import 'commons/header';
+@import 'commons/footer';
+@import 'commons/pagination';
+
+// -- Vendors -- //
+@import 'vendors/slick/slick';
+@import 'vendors/leaflet/core';
+@import 'vendors/leaflet/custom-theme';
+
+
+// ------------------------ //
+// -- Loops -- //
+// ------------------------ //
+@import 'loops/posts-home';
+@import 'loops/press-loop';
+@import 'loops/research-loop';
+@import 'loops/areas';
+@import 'loops/areas-home';
+@import 'loops/testimonios';
+@import 'loops/galleries';
+@import 'loops/videos';
+
+// ------------------------ //
+// -- Blocks -- //
+// ------------------------ //
+@import 'blocks/general/header-titles';
+@import 'blocks/general/panel';
+@import 'blocks/general/forms';
+@import 'blocks/general/top-filter';
+@import 'blocks/general/articles';
+
+@import 'blocks/home/slider';
+@import 'blocks/home/bl-info';
+@import 'blocks/home/map-home';
+
+@import 'blocks/quienes-somos/banner';
+@import 'blocks/quienes-somos/info';
+@import 'blocks/quienes-somos/equipo';
+
+@import 'blocks/contacto/formulario';
+@import 'blocks/contacto/info';
+
+@import 'blocks/areas/bannerAreas';
+
+@import 'blocks/descubre/banner';
+@import 'blocks/descubre/videos';
+@import 'blocks/descubre/aliados';
+@import 'blocks/descubre/gallery';
+
+@import 'blocks/metodo/banner';
+@import 'blocks/metodo/tabs';
+@import 'blocks/metodo/que-es';
+@import 'blocks/metodo/escuchar';
+@import 'blocks/metodo/metodo-tomatis';
+
+@import 'blocks/research/hero';
+@import 'blocks/research/files';
+
+@import 'blocks/box/top-content';
+@import 'blocks/box/services';
+@import 'blocks/box/location';
+
+
+
+
+// ------------------------ //
+// -- Pages -- //
+// ------------------------ //
+@import 'pages/en-caja';
+@import 'pages/contact';
+@import 'pages/research';
+@import 'pages/directives';
+
+//singles
+@import 'pages/single-gallery';
